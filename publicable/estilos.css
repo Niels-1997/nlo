@@ -1,0 +1,158 @@
+@charset "utf-8";
+/*CSS Document */
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	line-height: 2.25rem;
+	background-color: #585858;
+	text-align: justify;
+}
+h1,h2,h3,h4,nav,footer{
+	font-family: 'Bebas Neue', cursive;
+	line-height: 1.75rem;
+	font-size: 20px;
+}
+img,video,iframe{
+width: 100%;
+}
+main{
+	max-width: 1200px;
+	background-color: white;
+	margin: 0 auto;
+}
+header{
+	background-color: black;
+}
+header h1{
+	font-size: 3.7rem;
+	color: #B40404;
+	letter-spacing: 5px;
+/*	padding-left: 280px;*/
+	text-align: center;
+	padding-bottom: 15px;
+	
+}
+h2{
+	font-size: 2.25rem;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	color: #B40404;
+	font-weight: bold;
+}
+h3{
+	font-size: 1.75rem;
+	color: black;
+}
+figcaption{
+	font-size: 1rem;
+	font-style: italic;
+}
+#logo{
+	float: left;
+	width: 100%;
+	padding-bottom: 30px;
+	
+	
+}
+
+nav#menu-principal li{
+	display: inline-block;
+	padding: 10px 0%;
+}
+nav#menu-principal a{
+	padding-left: 190px;
+	color: #BDBDBD;
+	letter-spacing: 1.2px;
+}
+
+nav#menu-principal a:hover{
+	color: #B40404;
+}
+section{
+	float: left;
+	width: 65%;
+	padding: 50px 3.5% 30px 8%;
+}
+section p{
+	line-height: 2rem;
+	padding: 18px 0%;
+}
+section h3{
+	font-size: 1.3rem;
+}
+.texto{
+	color:#000000;
+	background-color: #BDBDBD;
+	font-size: 1.10rem;
+	font-weight:bold;
+	padding: 10px 3%;
+	margin: 20px 0%; 
+}
+section figure{
+	margin: 20px 0%;
+}
+aside{
+	float: left;
+	width: 35%;
+	padding: 40px 8% 50px 0;
+	margin:95px 0%;
+	line-height: 1.5rem;
+}
+aside h3{
+	padding-top: 45px;
+	padding-bottom: 25px;
+	border-top: 1px solid black;
+}
+aside p{
+	font-size: 12px;
+	padding-bottom: 55px;
+}
+#logof{
+	width: 100px;
+	padding-top: 10px;
+	margin: 10px 1.5% 10px 7.5%;
+	margin-right: 10px;
+}
+footer{
+	clear: both;
+	background-color: black;
+}
+footer a:hover{
+	color: #999;
+
+}
+footer p{
+	color:#5E5C5C;
+	margin: 0px 7.5% 40px 7.5%;
+
+	padding-bottom: 20px;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+h3 a{
+	color: #999;
+}
+a:hover{
+	color:black;
+}
+h4{
+	font-size: 1.50rem;
+	color: #B40404;
+}
+aside img{
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+}
